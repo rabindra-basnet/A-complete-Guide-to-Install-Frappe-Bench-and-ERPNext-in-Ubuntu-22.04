@@ -41,9 +41,10 @@ sudo apt install python3.10-venv
 ### Install Curl, Redis and Node.js
 ```
 sudo apt install curl 
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 source ~/.profile
-nvm install 14.15.0  
+nvm install node
+nvm alias default node 
 ```
 
 ###  Install Yarn
