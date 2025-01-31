@@ -208,6 +208,14 @@ This also will mean that your instance will start automatically even in the even
 
 Default User is Administrator and use password you entered while creating new site.
 
+if Assets is not loading then you can do this
+```
+bench setup requirements
+bench build
+bench clear-cache
+bench clear-website-cache
+```
+
 ## To setup multitenancy check out this link
 - https://frappeframework.com/docs/v13/user/en/bench/guides/setup-multitenancy
 
